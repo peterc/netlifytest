@@ -1,7 +1,7 @@
 require 'kramdown'
 
-puts "Clearing output directory"
-`rm output/*`
+`rm -rf output`
+`mkdir -p output`
 
 Dir['input/*.md'].each do |filename|
   puts "Compiling #{filename} to HTML"
