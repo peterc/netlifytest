@@ -1,3 +1,3 @@
 # Hello world!
 
-This is a *very* simple Web site.
+This is a *very* simple Web site. Cool.
